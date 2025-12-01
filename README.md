@@ -1,5 +1,5 @@
 
-# Smart-Attendance-System-using-RFID-Face-detection
+# Smart Attendance System using RFID & Face detection
 
 The Smart Attendance System is a dual authentication security device designed to ensure accurate and reliable attendance verification. By combining RFID card scanning with face recognition, the system eliminates proxy/fake attendance and grants access only when both validations succeed.
 
