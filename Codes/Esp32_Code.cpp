@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 // ==== CONFIGURE WIFI ====
-const char* ssid = "Taz";     // তোমার WiFi SSID
-const char* password = "tazbiswas";   // তোমার WiFi Password
+const char* ssid = "YOUR_WIFI_SSID";    
+const char* password = "YOUR_WIFI_PASSWORD";   
 
 // ==== CAMERA MODEL ====
 #define CAMERA_MODEL_AI_THINKER
@@ -171,4 +171,5 @@ void setup() {
 void loop() {
   server.handleClient();
   delay(1);
+
 }
