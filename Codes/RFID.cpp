@@ -29,9 +29,9 @@ struct AuthorizedUser {
 };
 
 AuthorizedUser authorizedUsers[] = {
-  {{0x9B, 0x3D, 0x42, 0x05}, "Taz", "202314100", "CSE", true},
-  {{0x6D, 0x7E, 0x6A, 0x05}, "Jamil", "202314102", "CSE", true},
-  {{0x77, 0xB7, 0x47, 0x05}, "Tamim", "202314083", "CSE", true}
+  {{0x9B, 0x3D, 0x42, 0x05}, "X", "1", "CSE", true},
+  {{0x6D, 0x7E, 0x6A, 0x05}, "Y", "2", "CSE", true},
+  {{0x77, 0xB7, 0x47, 0x05}, "Z", "3", "CSE", true}
 };
 
 const int NUM_USERS = sizeof(authorizedUsers) / sizeof(authorizedUsers[0]);
